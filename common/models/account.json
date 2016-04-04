@@ -1,0 +1,61 @@
+{
+  "name": "account",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "firstname": {
+      "type": "string",
+      "required": true
+    },
+    "lastname": {
+      "type": "string",
+      "required": true
+    },
+    "birthday": {
+      "type": "date",
+      "required": true
+    },
+    "city": {
+      "type": "string",
+      "required": true
+    },
+    "moved": {
+      "type": "date",
+      "required": true
+    },
+    "profession": {
+      "type": "string",
+      "required": true
+    },
+    "sex": {
+      "type": "string",
+      "required": true
+    },
+    "interests": {
+      "type": [
+        "string"
+      ]
+    }
+  },
+  "validations": [],
+  "relations": {
+    "events": {
+      "type": "hasMany",
+      "model": "event",
+      "foreignKey": "participantId",
+      "through": "participant"
+    }
+  },
+  "acls": [
+    {
+     "principalType": "ROLE",
+     "principalId": "$owner",
+     "permission": "ALLOW",
+     "property": "__get__events"
+    }
+  ],
+  "methods": {}
+}
