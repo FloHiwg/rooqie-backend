@@ -15,7 +15,8 @@ module.exports = function(app) {
       date: new Date("April 03, 2016 14:30"),
       location: 'Das Maria',
       category: 'Brunch',
-      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg'
+      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg',
+      maxParticipants: 5
     }, function(err, project) {
       if (err) throw err;
 
@@ -28,7 +29,8 @@ module.exports = function(app) {
       date: new Date("Feburary 28, 2016"),
       location: 'Das Maria',
       category: 'Brunch',
-      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg'
+      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg',
+      maxParticipants: 5
     }, function(err, project) {
       if (err) throw err;
 
@@ -40,7 +42,8 @@ module.exports = function(app) {
       date: new Date("Feburary 28, 2016"),
       location: 'Das Maria',
       category: 'Brunch',
-      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg'
+      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg',
+      maxParticipants: 5
     }, function(err, project) {
       if (err) throw err;
 
@@ -52,7 +55,8 @@ module.exports = function(app) {
       date: new Date("Feburary 28, 2016"),
       location: 'Das Maria',
       category: 'Brunch',
-      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg'
+      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg',
+      maxParticipants: 5
     }, function(err, project) {
       if (err) throw err;
 
@@ -64,7 +68,8 @@ module.exports = function(app) {
       date: new Date("Feburary 28, 2016"),
       location: 'Das Maria',
       category: 'Brunch',
-      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg'
+      image: 'http://polpix.sueddeutsche.com/polopoly_fs/1.1712138.1372867455!/httpImage/image.jpg_gen/derivatives/860x860/image.jpg',
+      maxParticipants: 5
     }, function(err, project) {
       if (err) throw err;
 

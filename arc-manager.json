@@ -1,0 +1,12 @@
+{
+  "ids": {
+    "ManagerHost": 2,
+    "LoadBalancer": 1
+  },
+  "models": {
+    "ManagerHost": {
+      "2af9964c-e430-4c26-bbbf-e02d695cd213": "{\"id\":\"2af9964c-e430-4c26-bbbf-e02d695cd213\",\"host\":\"ec2-52-58-3-95.eu-central-1.compute.amazonaws.com\",\"port\":8701,\"actions\":[\"delete\",\"edit\"],\"protocol\":\"http\",\"created\":1459764956169,\"error\":{\"message\":\"connect ETIMEDOUT 52.58.3.95:8701\"},\"errorType\":\"unknown\",\"app\":null,\"processes\":null,\"$$hashKey\":\"object:120\",\"isHostProblem\":true}"
+    },
+    "LoadBalancer": {}
+  }
+}

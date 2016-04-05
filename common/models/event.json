@@ -29,6 +29,10 @@
     "image": {
       "type": "string",
       "required": true
+    },
+    "maxParticipants": {
+      "type": "number",
+      "required": true
     }
   },
   "validations": [],
@@ -40,6 +44,19 @@
       "through": "participant"
     }
   },
-  "acls": [],
+  "acls": [
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$authenticated",
+      "permission": "ALLOW"
+    }
+  ],
   "methods": {}
 }
