@@ -18,15 +18,7 @@
       "type": "string",
       "required": true
     },
-    "location": {
-      "type": "string",
-      "required": true
-    },
     "category": {
-      "type": "string",
-      "required": true
-    },
-    "image": {
       "type": "string",
       "required": true
     },
@@ -42,6 +34,11 @@
       "model": "account",
       "foreignKey": "eventId",
       "through": "participant"
+    },
+    "location": {
+      "type": "belongsTo",
+      "model": "location",
+      "foreignKey": ""
     }
   },
   "acls": [
