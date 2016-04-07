@@ -8,7 +8,8 @@ module.exports = function(app) {
     address: "Fraunhoferstraße 42, 80469 München",
     url: "http://www.hungriges-herz.com/",
     lat: 48.1281295,
-    lng: 11.573311
+    lng: 11.573311,
+    image: "http://hungriges-herz.mux.de/images/1500x1200z/client/37809/iobcanmeqdgj/hungriges-herz-2.jpg"
   });
 
   Location.create({
@@ -16,7 +17,8 @@ module.exports = function(app) {
     address: "none",
     url: "http://www.muenchen.de/",
     lat: 48.1642359,
-    lng: 11.6033635
+    lng: 11.6033635,
+    image: "http://visit-munich-bavaria.com/sites/default/files/styles/xl/public/englischer-garten-monopteros.jpg"
   });
 
   Account.create([
