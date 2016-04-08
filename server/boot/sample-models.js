@@ -22,8 +22,8 @@ module.exports = function(app) {
   });
 
   Account.create([
-    {username: 'Florian', email: 'florian@rooqie.de', password: 'secret', firstname: 'Florian', lastname: 'Heiwig', birthday: new Date("June 21, 1995"), moved: new Date("Feburary 28, 2016"), sex: 'male', city: 'München', profession:'student', image: 'http://www.zolawindows.com/zolaw/wp-content/uploads/2012/05/florian--e1338501784573.jpg'},
-    {username: 'Wiebke', email: 'Wiebke@rooqie.de', password: 'secret', firstname: 'Wiebke', lastname: 'H', birthday: new Date("June 21, 1995"), moved: new Date("Feburary 28, 2016"), sex: 'female', city: 'München', profession:'journalist', image: 'http://www.zolawindows.com/zolaw/wp-content/uploads/2012/05/florian--e1338501784573.jpg'}
+    {username: 'Florian', email: 'florian@rooqie.de', password: 'secret', firstname: 'Florian', lastname: 'Heiwig', birthday: new Date("June 21, 1995"), moved: new Date("Feburary 28, 2016"), sex: 'male', city: 'München', profession:'Student', image: 'https://www.xing.com/image/0_6_5_5b36a949a_18797032_7/florian-heiwig-foto.1024x1024.jpg'},
+    {username: 'Uli', email: 'Uli@rooqie.de', password: 'secret', firstname: 'Uli', lastname: 'Drömann', birthday: new Date("June 21, 1995"), moved: new Date("Feburary 28, 2016"), sex: 'male', city: 'München', profession:'Student', image: 'http://www.skoen.de/files/content/SKON%20Bilder/uli.jpg'}
   ], function(err, users) {
     if (err) throw err;
 
