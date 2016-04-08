@@ -30,7 +30,7 @@ module.exports = function(app) {
     console.log('Created users:', users);
 
     users[0].events.create({
-      name: 'Ausflug, Englischer Garten',
+      name: 'Englischer Garten',
       description: 'Hey Hoe, was geht? Wollte am Wochenende mal in den Englischen Garten! Würde mich über Gesellschaft freuen! ',
       date: new Date("April 09, 2016 14:30"),
       locationId: 2,
@@ -43,7 +43,7 @@ module.exports = function(app) {
     });
 
     users[0].events.create({
-      name: 'Frühstück, Hungriges Herz',
+      name: 'Hungriges Herz',
       description: 'Hi! Hab den Kater meines Lebens und hätte Lust auf ein deftiges Frühstück. Leidensgenossen irgendwo?',
       date: new Date("April 10, 2016 12:00"),
       locationId: 1,
