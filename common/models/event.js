@@ -22,8 +22,8 @@ module.exports = function(Event) {
       {
         http: {path: '/join', verb: 'post'},
         accepts: [
-          {arg: 'accountId', type: 'number'},
-          {arg: 'eventId', type: 'number'}
+          {arg: 'accountId', type: 'string'},
+          {arg: 'eventId', type: 'string'}
         ],
         returns: [
           {arg: 'accepted', type: 'bool'},
