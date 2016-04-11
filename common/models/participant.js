@@ -14,8 +14,8 @@ module.exports = function(Participant) {
       {
         http: {path: '/participates', verb: 'get'},
         accepts: [
-          {arg: 'accountId', type: 'number'},
-          {arg: 'eventId', type: 'number'}
+          {arg: 'accountId', type: 'string'},
+          {arg: 'eventId', type: 'string'}
         ],
         returns: {arg: 'participates', type: 'bool'}
       }
