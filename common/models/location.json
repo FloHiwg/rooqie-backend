@@ -14,21 +14,26 @@
       "type": "string",
       "required": true
     },
-    "lat": {
-      "type": "number",
+    "mapurl": {
+      "type": "string",
       "required": true
     },
-    "lng": {
-      "type": "number",
-      "required": true
-    },
-    "url": {
+    "homepage": {
       "type": "string",
       "required": true
     },
     "image": {
       "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "string",
+      "required": true
+    },
+    "categories": {
+      "type": [
+        "string"
+      ]
     }
   },
   "validations": [],
