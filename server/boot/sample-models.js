@@ -1,4 +1,4 @@
-module.exports = function(app) {
+/*module.exports = function(app) {
   var Account = app.models.account;
   var Event = app.models.event;
   var Location = app.models.location;
@@ -57,3 +57,4 @@ module.exports = function(app) {
   });
 
 };
+*/

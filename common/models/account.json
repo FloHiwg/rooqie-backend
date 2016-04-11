@@ -7,32 +7,25 @@
   },
   "properties": {
     "firstname": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "lastname": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "birthday": {
-      "type": "date",
-      "required": true
+      "type": "date"
     },
     "city": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "moved": {
-      "type": "date",
-      "required": true
+      "type": "date"
     },
     "profession": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "sex": {
-      "type": "string",
-      "required": true
+      "type": "string"
     },
     "interests": {
       "type": [
@@ -40,8 +33,7 @@
       ]
     },
     "image": {
-      "type": "string",
-      "required": true
+      "type": "string"
     }
   },
   "validations": [],
