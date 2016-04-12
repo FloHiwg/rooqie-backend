@@ -32,7 +32,7 @@
     users[0].events.create({
       name: 'Englischer Garten',
       description: 'Hey Hoe, was geht? Wollte am Wochenende mal in den Englischen Garten! Würde mich über Gesellschaft freuen! ',
-      date: new Date("April 09, 2016 14:30"),
+      date: new Date("April 15, 2016 14:30"),
       locationId: 2,
       category: 'trip',
       maxParticipants: 5
@@ -45,7 +45,7 @@
     users[0].events.create({
       name: 'Hungriges Herz',
       description: 'Hi! Hab den Kater meines Lebens und hätte Lust auf ein deftiges Frühstück. Leidensgenossen irgendwo?',
-      date: new Date("April 10, 2016 12:00"),
+      date: new Date("April 15, 2016 12:00"),
       locationId: 1,
       category: 'breakfast',
       maxParticipants: 5
@@ -56,5 +56,4 @@
     });
   });
 
-};
-*/
+};*/

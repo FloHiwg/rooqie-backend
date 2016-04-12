@@ -17,6 +17,16 @@ module.exports = function(Event) {
     });
   }
 
+  Event.getMatchingEvents = function(accountId, cb) {
+    Event.find({
+      where: {
+        date: {gt: Date.now()}
+      }
+    }, function (err, events) {
+      cb(null, events);
+    });
+  }
+
   Event.remoteMethod(
       'join',
       {
@@ -28,6 +38,18 @@ module.exports = function(Event) {
         returns: [
           {arg: 'accepted', type: 'bool'},
           {arg: 'msg', type: 'string'},
+        ]
+      }
+  );
+  Event.remoteMethod(
+      'getMatchingEvents',
+      {
+        http: {path: '/getMatchingEvents', verb: 'get'},
+        accepts: [
+          {arg: 'accountId', type: 'string'}
+        ],
+        returns: [
+          {arg: 'events', type: []}
         ]
       }
   );
