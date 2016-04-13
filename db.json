@@ -1,33 +1,38 @@
 {
   "ids": {
-    "User": 2,
-    "AccessToken": 3,
+    "User": 1,
+    "AccessToken": 2,
     "UserCredential": 1,
-    "UserIdentity": 2,
+    "UserIdentity": 1,
     "ACL": 1,
     "RoleMapping": 1,
     "Role": 1,
-    "account": 1,
+    "account": 2,
+    "accessToken": 1,
+    "userCredential": 1,
+    "userIdentity": 2,
     "event": 1,
     "participant": 1,
     "location": 1
   },
   "models": {
-    "User": {
-      "1": "{\"username\":\"facebook-login.153675131694823\",\"password\":\"$2a$10$Vm81OnZ9qH71hWzfwqbeIOJY5KPTQB.W41gbho35M6UQF5Hg47Tb6\",\"email\":\"153675131694823@loopback.facebook.com\",\"id\":1}"
-    },
+    "User": {},
     "AccessToken": {
-      "UF6m27dMJmEVGQoG3SG3VSLjaxlNGG3p7c2r7ctf7Du1g9FGqo00RqSEW5jJYi6y": "{\"id\":\"UF6m27dMJmEVGQoG3SG3VSLjaxlNGG3p7c2r7ctf7Du1g9FGqo00RqSEW5jJYi6y\",\"ttl\":1209600,\"created\":\"2016-04-13T09:56:00.825Z\",\"userId\":1}",
-      "oPnCNxGvTJAEjBPRK5hltE0YJKUBQAtraBTzGuxaAWiAAafFbCCgPN8eUjr3eH5Y": "{\"id\":\"oPnCNxGvTJAEjBPRK5hltE0YJKUBQAtraBTzGuxaAWiAAafFbCCgPN8eUjr3eH5Y\",\"ttl\":1209600,\"created\":\"2016-04-13T09:56:06.435Z\",\"userId\":1}"
+      "C29uuEr1aZrIxgn4WxVCCPckr5FEY4jQoQpQuHy9sDftgj0iTxI2ByLYh1wcHZjl": "{\"id\":\"C29uuEr1aZrIxgn4WxVCCPckr5FEY4jQoQpQuHy9sDftgj0iTxI2ByLYh1wcHZjl\",\"ttl\":1209600,\"created\":\"2016-04-13T10:20:12.782Z\",\"userId\":1}"
     },
     "UserCredential": {},
-    "UserIdentity": {
-      "1": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"153675131694823\",\"profile\":{\"id\":\"153675131694823\",\"displayName\":\"Florian Heiwig\",\"name\":{},\"provider\":\"facebook\",\"_raw\":\"{\\\"name\\\":\\\"Florian Heiwig\\\",\\\"id\\\":\\\"153675131694823\\\"}\",\"_json\":{\"name\":\"Florian Heiwig\",\"id\":\"153675131694823\"}},\"credentials\":{\"accessToken\":\"CAAPCHTl5hJsBAGiY0ZAuGgJLLIOtxXkYgS2hYHZBjbWwUo9s4R8Ov8ZC0YxKmkI57BVJDWh7znJk7v6wYjRE4g7Q6xvAZA89NL54owWwgKb5ASbjsQBRcqUSd45GGvZBCpCnjtrVQL8gDvZAoJF9ZBGVuUiLMeHWR8JKvnWs3VdYVLHfxVJymHCrxFOuTEmyGoZD\"},\"created\":\"2016-04-13T09:56:00.819Z\",\"modified\":\"2016-04-13T09:56:06.429Z\",\"userId\":1,\"id\":1}"
-    },
+    "UserIdentity": {},
     "ACL": {},
     "RoleMapping": {},
     "Role": {},
-    "account": {},
+    "account": {
+      "1": "{\"username\":\"facebook-login.153675131694823\",\"password\":\"$2a$10$YNQ8gv1uimEck4OvRXKG.Owtb/MJJb9oQaPlb2kKzHkrBFj5Sfn/q\",\"email\":\"153675131694823@loopback.facebook.com\",\"id\":1}"
+    },
+    "accessToken": {},
+    "userCredential": {},
+    "userIdentity": {
+      "1": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"153675131694823\",\"profile\":{\"id\":\"153675131694823\",\"displayName\":\"Florian Heiwig\",\"name\":{},\"provider\":\"facebook\",\"_raw\":\"{\\\"name\\\":\\\"Florian Heiwig\\\",\\\"id\\\":\\\"153675131694823\\\"}\",\"_json\":{\"name\":\"Florian Heiwig\",\"id\":\"153675131694823\"}},\"credentials\":{\"accessToken\":\"CAAPCHTl5hJsBALteFDPy5C7d9SwdBynCdQqWFyabdiWkO5yZCfdJrB1kGahSYH9a6V8i7zjE5p1bqzSiZAE7FrW3JBXjjJWoovBZBIbHLOhGElPVlG2IHiRSAqRfyxxVlyBYGUvlFHP2ZBqwPhVhwMYcbAZCZCSGGm94Ck68ZBpmZAWEZCMQt093AxzdcAwhQolYZD\"},\"created\":\"2016-04-13T10:20:12.775Z\",\"modified\":\"2016-04-13T10:20:12.775Z\",\"userId\":1,\"id\":1}"
+    },
     "event": {},
     "participant": {},
     "location": {}

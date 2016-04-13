@@ -45,6 +45,18 @@
     "dataSource": "mongo",
     "public": true
   },
+  "accessToken": {
+    "dataSource": "mongo",
+    "public": false
+  },
+  "userCredential": {
+    "dataSource": "mongo",
+    "public": true
+  },
+  "userIdentity": {
+    "dataSource": "mongo",
+    "public": true
+  },
   "event": {
     "dataSource": "mongo",
     "public": true
