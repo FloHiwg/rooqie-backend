@@ -1,7 +1,16 @@
 {
-  "mongo": {
+  "db": {
     "name": "db",
     "connector": "memory",
     "file": "db.json"
+  },
+  "mongo": {
+    "host": "ds013280.mlab.com",
+    "port": 13280,
+    "database": "rooqie",
+    "password": "scheissaufdiewohnung",
+    "name": "mongo",
+    "user": "rooqie-test",
+    "connector": "mongodb"
   }
 }
