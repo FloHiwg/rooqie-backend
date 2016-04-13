@@ -1,15 +1,7 @@
 {
-  "db": {
-    "name": "db",
-    "connector": "memory"
-  },
   "mongo": {
-    "host": "localhost",
-    "port": 27017,
-    "database": "rooqie",
-    "password": "",
-    "name": "mongo",
-    "user": "",
-    "connector": "mongodb"
+    "name": "db",
+    "connector": "memory",
+    "file": "db.json"
   }
 }
