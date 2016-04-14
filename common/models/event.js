@@ -9,8 +9,8 @@ module.exports = function(Event) {
           }else if(userevent.length > 0){
             cb(null, false, "already part of the event")
           } else {
-            app.models.participant.create({"eventId": eventId, "participantId": accountId});
-            cb(null, true, "successfully added");
+            var p = app.models.participant.create({"eventId": eventId, "participantId": accountId});
+            cb(null, true, "Successfully added");
           }
         });
       });
