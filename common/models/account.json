@@ -36,7 +36,7 @@
             "type": "string"
         },
         "onboarding": {
-            "type": "bool",
+            "type": "boolean",
             "default": false
         }
     },
