@@ -1,5 +1,5 @@
 {
-  "db": {
+  "mongo2": {
     "name": "db",
     "connector": "memory",
     "file": "db.json"

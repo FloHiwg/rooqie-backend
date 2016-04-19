@@ -11,6 +11,19 @@
       "foreignKey": "userId"
     }
   },
-  "acls": [],
+  "acls": [
+      {
+        "accessType": "*",
+        "principalType": "ROLE",
+        "principalId": "$everyone",
+        "permission": "ALLOW"
+      },
+      {
+        "accessType": "*",
+        "principalType": "ROLE",
+        "principalId": "$owner",
+        "permission": "ALLOW"
+      }
+  ],
   "methods": {}
 }
