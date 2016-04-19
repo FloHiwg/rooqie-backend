@@ -4,7 +4,7 @@
     "module": "passport-facebook",
     "clientID": "1057855704237211",
     "clientSecret": "a82ecf87fe13774ba917c27246f7ce94",
-    "callbackURL": "http://ec2-52-58-3-95.eu-central-1.compute.amazonaws.com:3000/auth/facebook/callback",
+    "callbackURL": "http://ec2-52-58-3-95.eu-central-1.compute.amazonaws.com:3000//auth/facebook/callback",
     "authPath": "/auth/facebook",
     "callbackPath": "/auth/facebook/callback",
     "successRedirect": "/index.html",

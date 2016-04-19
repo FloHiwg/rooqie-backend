@@ -28,7 +28,7 @@
   },
   "userIdentity": {
     "dataSource": "mongo",
-    "public": false
+    "public": true
   },
   "event": {
     "dataSource": "mongo",

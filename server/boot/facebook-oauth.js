@@ -10,4 +10,4 @@ passportConfigurator.setupModels({
   userCredentialModel: app.models.userCredential
 });
 passportConfigurator.configureProvider('facebook-login',
-  require('../../providers.json')['facebook-login']);
+  require('../../providers_prod.json')['facebook-login']);
