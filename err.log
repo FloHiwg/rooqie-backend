@@ -1,0 +1,503 @@
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'loopback-component-passport'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/ec2-user/rooqie-backend/server/server.js:3:28)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+
+module.js:340
+    throw err;
+    ^
+Error: Cannot find module 'loopback-component-passport'
+    at Function.Module._resolveFilename (module.js:338:15)
+    at Function.Module._load (module.js:280:25)
+    at Module.require (module.js:364:17)
+    at require (module.js:380:17)
+    at Object.<anonymous> (/home/ec2-user/rooqie-backend/server/server.js:3:28)
+    at Module._compile (module.js:456:26)
+    at Object.Module._extensions..js (module.js:474:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:312:12)
+    at Function.Module.runMain (module.js:497:10)
+FacebookAuthorizationError: App ist nicht eingerichtet: This app is still in development mode, and you don't have access to it. Switch to a registered test user or ask an app admin for permissions.
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+FacebookAuthorizationError: App ist nicht eingerichtet: This app is still in development mode, and you don't have access to it. Switch to a registered test user or ask an app admin for permissions.
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+FacebookAuthorizationError: App ist nicht eingerichtet: This app is still in development mode, and you don't have access to it. Switch to a registered test user or ask an app admin for permissions.
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+FacebookAuthorizationError: App ist nicht eingerichtet: This app is still in development mode, and you don't have access to it. Switch to a registered test user or ask an app admin for permissions.
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+FacebookAuthorizationError: App ist nicht eingerichtet: This app is still in development mode, and you don't have access to it. Switch to a registered test user or ask an app admin for permissions.
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+Error: Cannot GET /auth/logout
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/logout
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /var/containers/Bundle/Application/7CB0E336-09FE-47C4-9C4C-FBF930334B0C/Ionic%20View.app/www/cordova.js
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /var/containers/Bundle/Application/7CB0E336-09FE-47C4-9C4C-FBF930334B0C/Ionic%20View.app/www/cordova.js
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/fax
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /au
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:618:15
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:256:14)
+    at Function.handle (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:176:3)
+    at router (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:46:12)
+Error: Cannot GET /auth/account
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
+FacebookAuthorizationError: User canceled the Dialog flow
+    at Strategy.authenticate (/home/ec2-user/rooqie-backend/node_modules/passport-facebook/lib/strategy.js:81:23)
+    at attempt (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:341:16)
+    at authenticate (/home/ec2-user/rooqie-backend/node_modules/passport/lib/middleware/authenticate.js:342:7)
+    at defaultCallback (/home/ec2-user/rooqie-backend/node_modules/loopback-component-passport/lib/passport-configurator.js:484:7)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:131:13)
+    at Route.dispatch (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/route.js:112:3)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:277:22
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+Error: Cannot GET /index.html
+    at raiseUrlNotFoundError (/home/ec2-user/rooqie-backend/node_modules/loopback/server/middleware/url-not-found.js:15:17)
+    at Layer.handle [as handle_request] (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/layer.js:95:5)
+    at trim_prefix (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:312:13)
+    at /home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:280:7
+    at Function.process_params (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:330:12)
+    at next (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/lib/router/index.js:271:10)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/serve-static/index.js:120:7)
+    at SendStream.emit (events.js:95:17)
+    at SendStream.error (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:245:17)
+    at SendStream.onStatError (/home/ec2-user/rooqie-backend/node_modules/loopback/node_modules/express/node_modules/send/index.js:356:12)
