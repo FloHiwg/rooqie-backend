@@ -1,0 +1,30 @@
+{
+  "ids": {
+    "userCredential": 1,
+    "userIdentity": 2,
+    "event": 1,
+    "participant": 1,
+    "location": 1,
+    "account": 2,
+    "accessToken": 4,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1
+  },
+  "models": {
+    "userCredential": {},
+    "userIdentity": {
+      "1": "{\"provider\":\"facebook-login\",\"authScheme\":\"oAuth 2.0\",\"externalId\":\"157513527977650\",\"profile\":{\"id\":\"157513527977650\",\"name\":{\"familyName\":\"Heiwig\",\"givenName\":\"Florian\"},\"gender\":\"male\",\"photos\":[{\"value\":\"https://scontent.xx.fbcdn.net/hprofile-xlp1/v/t1.0-1/c9.0.50.50/p50x50/1235372_122348214827515_4457062038495763152_n.jpg?oh=acce7bfc858607952bd3d2635665d8cf&oe=57784B33\"}],\"provider\":\"facebook\",\"_raw\":\"{\\\"first_name\\\":\\\"Florian\\\",\\\"last_name\\\":\\\"Heiwig\\\",\\\"gender\\\":\\\"male\\\",\\\"picture\\\":{\\\"data\\\":{\\\"is_silhouette\\\":false,\\\"url\\\":\\\"https:\\\\/\\\\/scontent.xx.fbcdn.net\\\\/hprofile-xlp1\\\\/v\\\\/t1.0-1\\\\/c9.0.50.50\\\\/p50x50\\\\/1235372_122348214827515_4457062038495763152_n.jpg?oh=acce7bfc858607952bd3d2635665d8cf&oe=57784B33\\\"}},\\\"id\\\":\\\"157513527977650\\\"}\",\"_json\":{\"first_name\":\"Florian\",\"last_name\":\"Heiwig\",\"gender\":\"male\",\"picture\":{\"data\":{\"is_silhouette\":false,\"url\":\"https://scontent.xx.fbcdn.net/hprofile-xlp1/v/t1.0-1/c9.0.50.50/p50x50/1235372_122348214827515_4457062038495763152_n.jpg?oh=acce7bfc858607952bd3d2635665d8cf&oe=57784B33\"}},\"id\":\"157513527977650\"}},\"credentials\":{\"accessToken\":\"CAAJDvdIczy0BAD84yNHSJNPU03fYqWKwODC7j6pK1AZCR0XWPJsZA4ZCNHwRLqseZCkPooJiUfZAJky0mK1pLm62LlOao2ZBrige3qxb2ZBxDsszjxonKbTgZBgG1ZCxYizeXrhTvLc9KcR6EZCAzMbzgSZCFec02vHyEZBz19CZCGOJVD5i8THZAPd88Jkw9ILvY3hEII1IQaSYCdZCwZDZD\"},\"created\":\"2016-04-19T08:24:15.746Z\",\"modified\":\"2016-04-19T11:50:15.799Z\",\"userId\":1,\"id\":1}"
+    },
+    "event": {},
+    "participant": {},
+    "location": {},
+    "account": {
+      "1": "{\"username\":\"facebook-login.157513527977650\",\"password\":\"$2a$10$vG7/A4tM9teW5UWq60VHEOKpBWt8q06pZwcAR.An6kzjcGyjLeruC\",\"email\":\"157513527977650@loopback.facebook.com\",\"id\":1,\"firstname\":\"Florian\",\"lastname\":\"Heiwig\",\"gender\":\"male\",\"image\":\"https://scontent.xx.fbcdn.net/hprofile-xlp1/v/t1.0-1/c9.0.50.50/p50x50/1235372_122348214827515_4457062038495763152_n.jpg?oh=acce7bfc858607952bd3d2635665d8cf&oe=57784B33\",\"city\":\"sdf\",\"moved\":\"2015-12-21T10:40:30.066Z\"}"
+    },
+    "accessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {}
+  }
+}
