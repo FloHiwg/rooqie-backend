@@ -8,6 +8,7 @@
     "authPath": "/auth/facebook",
     "callbackPath": "/auth/facebook/callback",
     "successRedirect": "/index.html",
-    "scope": ["public_profile"]
+    "scope": ["public_profile"],
+    "profileFields": ["first_name", "last_name", "gender", "picture"]
   }
 }
