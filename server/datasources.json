@@ -5,12 +5,12 @@
     "file": "db.json"
   },
   "mongo": {
-    "host": "ds013280.mlab.com",
-    "port": 13280,
+    "host": "ds013310.mlab.com",
+    "port": 13310,
     "database": "rooqie",
     "password": "scheissaufdiewohnung",
     "name": "mongo",
-    "user": "rooqie-test",
+    "user": "rooqie-backend",
     "connector": "mongodb"
   }
 }
