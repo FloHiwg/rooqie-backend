@@ -38,6 +38,9 @@
         "onboarding": {
             "type": "boolean",
             "default": false
+        },
+        "unsupportedcity": {
+            "type": "boolean"
         }
     },
     "validations": [],
