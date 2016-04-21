@@ -55,5 +55,9 @@
   "Role": {
     "dataSource": "mongo",
     "public": false
+  },
+  "feedback": {
+    "dataSource": "mongo",
+    "public": true
   }
 }
