@@ -41,6 +41,10 @@
     },
     "unsupportedcity": {
       "type": "boolean"
+  },
+    "tutorial": {
+      "type": "boolean",
+      "default": false
     }
   },
   "validations": [],
